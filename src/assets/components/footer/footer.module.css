@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    margin-top: 55px;
+}
+
+.fooImg {
+    /* margin-top: 20px; */
+}
+
+.dFlex {
+    display: flex;
+    align-items: center;
+}
+
+.fdFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    width: 354px;
+    background-color: rgba(0, 0, 0, 0.402);
+    padding: 100px 20px;
+    height: 257px;
+    align-items: center;
+    line-height: 25px;
+}
+
+.boxT {
+    background-color: rgba(0, 0, 0, 0.402);
+    padding: 100px 20px;
+    height: 257px;
+    border-top-right-radius: 10px;
+}
+
+.fooIcon {
+    margin-right: 100px;
+    font-size: 25px;
+}
+
+.pTxt {
+    font-size: 14px;
+}

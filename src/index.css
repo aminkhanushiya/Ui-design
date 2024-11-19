@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 50px;
+    align-items: center;
+}

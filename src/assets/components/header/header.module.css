@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 30px 100px;
+    align-items: center;
+}
+
+.menuList {
+    gap: 60px;
+}
+
+.menuItem {
+    background: transparent;
+    list-style: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    /* transition: 5s; */
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 30px;
+    color: black;
+}
+
+.menuItem:hover {
+    background: linear-gradient(to right, rgb(214, 72, 96), rgba(7, 7, 87, 0.916));
+}
+
+.logoTxt {
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.logoTxt:hover {
+    background: linear-gradient(to right, rgb(245, 133, 152), rgba(7, 7, 87, 0.842))
+}

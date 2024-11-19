@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.right {
+    width: 320px;
+}
+
+.heading {
+    color: white;
+    font-size: 61px;
+}
+
+.rhTxt {
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.btnTxt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 8px 20px;
+    background-color: rgba(0, 0, 0, 0.402);
+    /* opacity: 0.4; */
+    border: none;
+    border-radius: 5px;
+}
+
+.txt {
+    color: white;
+    text-decoration: underline;
+}
+
+.lastTxt {
+    display: flex;
+    gap: 40px;
+    margin-top: 25px;
+}
